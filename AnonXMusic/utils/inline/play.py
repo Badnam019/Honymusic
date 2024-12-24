@@ -61,15 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/SYSTEM_SUPPROT_GROUP"
+                text="✰𝐔ᴘᴅᴀᴛᴇ✰", url="https://t.me/SYSTEM_SUPPROT_GROUP"
             ),
             InlineKeyboardButton(
-                text="❰𝗔𝗹𝗹 𝗕𝗼𝘁❱", url="https://t.me/SYSTEM_BOT_UPDATE"
+                text="✰𝐒ᴜᴘᴘᴏʀᴛ✰", url="https://t.me/SYSTEM_BOT_UPDATE"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘❱", url="https://t.me/SYSTEM_BOT_UPDATE"
+                text="✰𝐎ᴡɴᴇʀ✰", url="https://t.me/SYSTEM_BOT_UPDATE"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -88,12 +88,12 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔥𝐁𝐀𝐃𝐍𝐀𝐌 𝗣𝗹𝗮𝘆𝗶𝗻𝗴🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="🔥✰𝐁ᴀʙᴜ✰🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝙄 𝘼𝙢 𝙇𝙞𝙫𝙚 𝙉𝙤𝙬🎧", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="✰𝐒ᴏɴᴀ✰", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
