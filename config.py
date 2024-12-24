@@ -84,7 +84,7 @@ PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/nef735.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/nef735.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/nef735.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/5erwav.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/nef735.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/nef735.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/nef735.jpg"
