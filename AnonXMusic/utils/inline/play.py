@@ -88,12 +88,12 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔥✰𝐁ᴀʙᴜ✰🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="🔥𝗕𝗔𝗗𝗡𝗔𝗠 𝗣𝗟𝗔𝗬𝗜𝗡𝗚🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✰𝐒ᴏɴᴀ✰", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="🫧𝗔 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗡𝗢𝗪🫧 ", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
