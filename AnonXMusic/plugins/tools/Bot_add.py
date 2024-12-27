@@ -8,11 +8,11 @@ from AnonXMusic import app
 from AnonXMusic.utils.database import add_served_chat, get_assistant
 
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://files.catbox.moe/zngzsm.jpg",
+    "https://files.catbox.moe/zngzsm.jpg",
+    "https://files.catbox.moe/tr0myp.jpg",
+    "https://files.catbox.moe/tr0myp.jpg",
+    "https://files.catbox.moe/pxuxmd.jpg",
 ]
 
 
@@ -29,12 +29,12 @@ async def join_watcher(_, message):
                     message.chat.username if message.chat.username else "𝐏ʀɪᴠᴀᴛᴇ 𝐆ʀᴏᴜᴘ"
                 )
                 msg = (
-                    f"❤️‍🔥𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐀 #𝐍ᴇᴡ_𝐆ʀᴏᴜᴘ\n\n"
-                    f"❤️‍🔥𝐂ʜᴀᴛ 𝐍ᴀᴍᴇ: {message.chat.title}\n"
-                    f"❤️‍🔥𝐂ʜᴀᴛ 𝐈ᴅ: `{message.chat.id}`\n"
-                    f"❤️‍🔥𝐂ʜᴀᴛ 𝐔sᴇʀɴᴀᴍᴇ: @{username}\n"
-                    f"❤️‍🔥𝐆ʀᴏᴜᴘ 𝐌ᴇᴍʙᴇʀs: {count}\n"
-                    f"❤️‍🔥𝐀ᴅᴅᴇᴅ 𝐁ʏ: {message.from_user.mention}"
+                    f"🚩𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐀 #𝐍ᴇᴡ_𝐆ʀᴏᴜᴘ\n\n"
+                    f"🚩𝐂ʜᴀᴛ 𝐍ᴀᴍᴇ: {message.chat.title}\n"
+                    f"🚩𝐂ʜᴀᴛ 𝐈ᴅ: `{message.chat.id}`\n"
+                    f"🚩𝐂ʜᴀᴛ 𝐔sᴇʀɴᴀᴍᴇ: @{username}\n"
+                    f"🚩𝐆ʀᴏᴜᴘ 𝐌ᴇᴍʙᴇʀs: {count}\n"
+                    f"🚩𝐀ᴅᴅᴇᴅ 𝐁ʏ: {message.from_user.mention}"
                 )
                 await app.send_photo(
                     LOGGER_ID,
@@ -44,7 +44,7 @@ async def join_watcher(_, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    f"😍𝐀ᴅᴅᴇᴅ 𝐁ʏ😍",
+                                    f"🚩𝗦𝗘𝗘 𝗚𝗥𝗢𝗨𝗣🚩",
                                     url=f"tg://openmessage?user_id={message.from_user.id}",
                                 )
                             ]
