@@ -61,15 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🚩𝗨𝗣𝗗𝗔𝗧𝗘🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP"
+                text="υᴘᴅᴧᴛєs", url="https://t.me/SYSTEM_SUPPROT_GROUP"
             ),
             InlineKeyboardButton(
-                text="🚩𝗦𝗨𝗣𝗣𝗢𝗥𝗧🚩", url="https://t.me/SYSTEM_BOT_UPDATE"
+                text="sυᴘᴘσʀᴛ", url="https://t.me/SYSTEM_BOT_UPDATE"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🚩𝗔𝗟𝗟 𝗕𝗢𝗧🚩", url="https://t.me/SYSTEM_BOT_UPDATE"
+                text="ᴧʟʟ ʙσᴛ's ˼", url="https://t.me/SYSTEM_BOT_UPDATE"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
