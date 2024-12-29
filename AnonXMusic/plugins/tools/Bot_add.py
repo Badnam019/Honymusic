@@ -29,12 +29,12 @@ async def join_watcher(_, message):
                     message.chat.username if message.chat.username else "𝐏ʀɪᴠᴀᴛᴇ 𝐆ʀᴏᴜᴘ"
                 )
                 msg = (
-                    f"🚩𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐀 #𝐍ᴇᴡ_𝐆ʀᴏᴜᴘ\n\n"
-                    f"🚩𝐂ʜᴀᴛ 𝐍ᴀᴍᴇ: {message.chat.title}\n"
-                    f"🚩𝐂ʜᴀᴛ 𝐈ᴅ: `{message.chat.id}`\n"
-                    f"🚩𝐂ʜᴀᴛ 𝐔sᴇʀɴᴀᴍᴇ: @{username}\n"
-                    f"🚩𝐆ʀᴏᴜᴘ 𝐌ᴇᴍʙᴇʀs: {count}\n"
-                    f"🚩𝐀ᴅᴅᴇᴅ 𝐁ʏ: {message.from_user.mention}"
+                    f"🥵𝐌ᴜɪsᴄ ʙᴏᴛ ᴀᴅᴅ ɴᴇᴡ #𝗡𝗘𝗪_𝗚𝗥𝗢𝗨𝗣\n\n"
+                    f"🥵𝗖𝗛𝗔𝗧 𝗡𝗔𝗠𝗘: {message.chat.title}\n"
+                    f"🥵𝗖𝗛𝗔𝗧 𝗜𝗗: `{message.chat.id}`\n"
+                    f"🥵𝗖𝗛𝗔𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: @{username}\n"
+                    f"🥵𝗠𝗘𝗠𝗕𝗘𝗥 𝗖𝗢𝗨𝗡𝗧: {count}\n"
+                    f"🥵𝗦𝗘𝗘 𝗚𝗥𝗢𝗨𝗣: {message.from_user.mention}"
                 )
                 await app.send_photo(
                     LOGGER_ID,
