@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "🅰︎━━━━━━━━━━"
+        bar = "▰▱▱▱▱▱▱▱▱▱"
     elif 10 < umm < 20:
-        bar = "━🆁︎━━━━━━━━━"
+        bar = "▰▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 30:
-        bar = "🆄︎━━━━━━━━━━"
+        bar = "▰▰▰▱▱▱▱▱▱▱"
     elif 30 <= umm < 40:
-        bar = "━━━━🆄︎━━━━━━"
+        bar = "▰▰▰▰▱▱▱▱▱▱"
     elif 40 <= umm < 50:
-        bar = "━━━━━𝗠━━━━━"
+        bar = "▰▰▰▰▰▱▱▱▱▱"
     elif 50 <= umm < 60:
-        bar = "━━━━━━━🅸︎━━━"
+        bar = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= umm < 70:
-        bar = "━━━━━━━🆂︎━━━"
+        bar = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= umm < 80:
-        bar = "━━━━━━━━━🅷︎━"
+        bar = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= umm < 95:
-        bar = "━━━━━━━━━🆁︎━"
+        bar = "▰▰▰▰▰▰▰▰▰▱"
     else:
-        bar = "━━━━━━━━━━🅷🅰︎"
+        bar = "▰▰▰▰▰▰▰▰▰▰"
     buttons = [
         [
             InlineKeyboardButton(
@@ -88,12 +88,12 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🚩𝗕𝗔𝗗𝗡𝗔𝗠 𝗣𝗟𝗔𝗬𝗜𝗡𝗚🚩", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="✪𝐁ᴀᴅɴᴀᴍ 𝐁ᴀʙʏ✪", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🚩𝗔 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗡𝗢𝗪🚩 ", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="✪𝐀 𝐏ʟᴀʏɪɴɢ 𝐍ᴏᴡ✪ ", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
